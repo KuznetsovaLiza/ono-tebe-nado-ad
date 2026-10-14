@@ -80,6 +80,7 @@
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: 0.2em;
+    margin-top: 60px;
   }
   
   .aligned-text {
@@ -140,7 +141,7 @@
   }
 
   .lots {
-    margin: 130px 24px 130px;
+    margin: 100px 24px 100px;
   }
   
   .lots__heading {
@@ -231,7 +232,7 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 72px;
-    margin: 0 24px 180px;
+    margin: 0 24px 110px;
     padding: 37px 0 0 47px;
   }
   
@@ -250,7 +251,7 @@
   }
   
   .about__title {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
