@@ -64,6 +64,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 757px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
@@ -75,11 +76,10 @@
   .cover__title {
     position: relative;
     z-index: 1;
-    padding: 115px 0;
     font-size: 100px;
     font-weight: 700;
     line-height: 1.15;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
   }
   
   .aligned-text {
@@ -97,6 +97,13 @@
   .aligned-text_right {
     text-align: end;
   }
+
+  .aligned-text::after {
+    content: '';
+    display: inline-block;
+    width: 0.2em;
+    margin-left: -0.2em;
+}
   
   .cover__description {
     position: relative;
@@ -133,7 +140,7 @@
   }
 
   .lots {
-    margin: 179px 24px 146px;
+    margin: 130px 24px 130px;
   }
   
   .lots__heading {
@@ -256,7 +263,6 @@
     gap: 30px;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 24px;
   }
 
   .about__column:last-child {
