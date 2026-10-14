@@ -127,8 +127,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 256px;
-    height: 51px;
     padding: 12px 32px;
     border: 1px solid #fff;
     background: transparent;
@@ -141,7 +139,7 @@
   }
 
   .lots {
-    margin: 100px 24px 100px;
+    margin: 179px 24px 146px;
   }
   
   .lots__heading {
