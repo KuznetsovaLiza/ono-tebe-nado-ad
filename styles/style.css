@@ -80,7 +80,7 @@
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: 0.2em;
-    margin-top: 60px;
+    margin-top: 150px;
   }
   
   .aligned-text {
@@ -104,7 +104,7 @@
     display: inline-block;
     width: 0.2em;
     margin-left: -0.2em;
-}
+  }
   
   .cover__description {
     position: relative;
@@ -230,7 +230,7 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 72px;
-    margin: 0 24px 110px;
+    margin: 0 24px 150px;
     padding: 37px 0 0 47px;
   }
   
@@ -249,7 +249,7 @@
   }
   
   .about__title {
-    margin-bottom: 30px;
+    margin: 100px 0;
     font-size: 40px;
     font-weight: 700;
     line-height: 1;
@@ -257,6 +257,7 @@
   }
   
   .about__text {
+    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
     gap: 30px;
