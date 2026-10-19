@@ -1,12 +1,12 @@
 .header {
     display: grid;
-    grid-template-columns: 1fr min-content 1fr;
+    grid-template-columns: 1fr 148px 1fr;
     align-items: center;
     padding: 92px 17px;
   }
   
   .header__menu {
-    line-height: 22px;
+    line-height: 21.13px;
   }
   
   .header__links-list {
@@ -23,6 +23,7 @@
   }
   
   .header__link {
+    letter-spacing: 0.01em;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-decoration-skip-ink: false;
@@ -93,10 +94,12 @@
   }
   
   .aligned-text_center {
+    line-height: 140px;
     text-align: center;
   }
   
   .aligned-text_right {
+    line-height: 100px;
     text-align: end;
   }
 
@@ -140,7 +143,7 @@
   }
 
   .lots {
-    margin: 181px 24px 146px;
+    margin: 185px 24px 146px;
   }
   
   .lots__heading {
@@ -231,7 +234,7 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 72px;
-    margin: 0 24px 180px;
+    margin: 0 24px 130px;
     padding: 37px 0 0 47px;
   }
   
