@@ -55,6 +55,7 @@
   .overlay {
     position: absolute;
     inset: 0;
+    opacity: 0.6;
     background-color: black;
     z-index: 0;
   }
@@ -79,8 +80,8 @@
     font-size: 100px;
     font-weight: 700;
     line-height: 1.15;
-    letter-spacing: 0.2em;
-    margin-top: 150px;
+    letter-spacing: 0.3em;
+    margin-top: 100px;
   }
   
   .aligned-text {
@@ -102,8 +103,8 @@
   .aligned-text::after {
     content: '';
     display: inline-block;
-    width: 0.2em;
-    margin-left: -0.2em;
+    width: 0.3em;
+    margin-left: -0.3em;
   }
   
   .cover__description {
@@ -118,9 +119,8 @@
   
   .cover__description-text {
     padding-left: 28px;
-    font-size: 22px;
     word-spacing: 20px;
-    line-height: 1.27;
+    line-height: 28px;
   }
   
   .bet-button {
@@ -132,14 +132,15 @@
     background: transparent;
     color: #fff;
     font-size: 22px;
-    line-height: 1;
+    line-height: 25.83px;
     text-transform: uppercase;
+    background-color: transparent;
     cursor: pointer;
     font-family: Raleway, sans-serif;
   }
 
   .lots {
-    margin: 179px 24px 146px;
+    margin: 181px 24px 146px;
   }
   
   .lots__heading {
@@ -230,7 +231,7 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 72px;
-    margin: 0 24px 150px;
+    margin: 0 24px 180px;
     padding: 37px 0 0 47px;
   }
   
@@ -252,7 +253,7 @@
     margin: 100px 0;
     font-size: 40px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 46.96px;
     text-transform: uppercase;
   }
   
@@ -262,7 +263,7 @@
     flex-direction: column;
     gap: 30px;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 24px;
   }
 
   .about__column:last-child {
@@ -272,7 +273,7 @@
 
   .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 149px 1fr;
     padding: 0px 50px 88px;
     align-items: start;
   }
@@ -289,6 +290,9 @@
   }
 
   .footer__menu {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
     justify-self: center;
   }
   
@@ -306,6 +310,7 @@
   }
   
   .footer__menu-link {
+    border-bottom: black 1px solid;
     color: #000;
     text-decoration: underline;
     text-decoration-thickness: 1px;
